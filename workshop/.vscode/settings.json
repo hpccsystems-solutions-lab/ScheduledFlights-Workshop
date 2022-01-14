@@ -1,0 +1,6 @@
+{
+    "ecl.launchConfiguration": "Academic_Workshop",
+    "ecl.targetCluster": {
+        "Academic_Workshop": "thor"
+    }
+}
