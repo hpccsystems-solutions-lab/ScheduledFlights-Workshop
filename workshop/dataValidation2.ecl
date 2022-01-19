@@ -17,7 +17,7 @@ END;
 
 ds := DATASET
     (
-        '~demo::stock_data.txt',
+        '~dcamper::stock_data::raw_data.txt',
         RawLayout,
         CSV(SEPARATOR('\t'), HEADING(1))
     );
