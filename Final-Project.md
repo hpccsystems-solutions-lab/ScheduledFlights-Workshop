@@ -58,4 +58,4 @@ buildRec := RECORD
 END;
 ```
 
-More information on [Child Record](.\workshop\childRecord.ecl)
+More information on [Child Record](./workshop/childRecord.ecl)
