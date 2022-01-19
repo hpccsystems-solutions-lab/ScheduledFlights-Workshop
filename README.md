@@ -15,7 +15,7 @@ Bahareh.Fardanian@lexisnexisrisk.com
 [https://hpccsystems.com/intern](https://hpccsystems.com/intern)
 
 ## HPCC Systems’ ECL Watchpage
-ECL Watchpage to review executed jobs [ECL Watchpage](http://40.70.159.207:8010/)
+ECL Watchpage to review executed jobs [ECL Watchpage](http://52.167.137.162:8010)
 
 ## ECL Tutorial 
 [https://hpccsystems-solutions-lab.github.io/](https://hpccsystems-solutions-lab.github.io/)
