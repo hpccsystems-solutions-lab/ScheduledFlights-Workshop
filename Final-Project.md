@@ -58,4 +58,7 @@ buildRec := RECORD
 END;
 ```
 
-More information on [Child Record](./workshop/childRecord.ecl)
+[Child Record Example](./workshop/childRecord.ecl)
+
+[RECORDOF Definition](https://hpccsystems.com/training/documentation/ecl-language-reference/html/RECORDOF.html)
+

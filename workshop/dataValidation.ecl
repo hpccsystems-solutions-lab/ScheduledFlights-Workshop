@@ -39,12 +39,12 @@ validatedData := PROJECT(getFlights.gsecData,
 									SELF := []
 																		));
                   
-OUTPUT(validatedData(InvalidFlight OR 
+OUTPUT(CHOOSEN(validatedData(InvalidFlight OR 
        InvalidDates OR 
-       Blanklocations), 
+       Blanklocations), 300), 
        NAMED('InvalidatedData'));
        
-OUTPUT(validatedData( NOT InvalidFlight OR 
+OUTPUT(CHOOSEN(validatedData( NOT InvalidFlight OR 
        NOT InvalidDates OR 
-       NOT Blanklocations), 
+       NOT Blanklocations), 300), 
               NAMED('ValidatedData'));

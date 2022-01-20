@@ -37,7 +37,7 @@ appendedData := PROJECT
             )
     );
 
-OUTPUT(appendedData, NAMED('appendedData'));
+OUTPUT(CHOOSEN(appendedData, 300), NAMED('appendedData'));
 
 /*******************************************************************************
  * Std.Date datatypes

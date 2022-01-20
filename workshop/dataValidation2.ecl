@@ -55,11 +55,11 @@ validatedDS := PROJECT
     );
 
 // Show some diagnostics
-OUTPUT(ds, NAMED('original_sample'));
+OUTPUT(CHOOSEN(ds, 300), NAMED('original_sample'));
 OUTPUT(COUNT(ds), NAMED('original_cnt'));
 
-OUTPUT(validatedDS(is_valid), NAMED('valid_sample'));
+OUTPUT(CHOOSEN(validatedDS(is_valid), 300), NAMED('valid_sample'));
 OUTPUT(COUNT(validatedDS(is_valid)), NAMED('valid_cnt'));
 
-OUTPUT(validatedDS(NOT is_valid), NAMED('invalid_sample'));
+OUTPUT(CHOOSEN(validatedDS(NOT is_valid), 300), NAMED('invalid_sample'));
 OUTPUT(COUNT(validatedDS(NOT is_valid)), NAMED('invalid_cnt'));
