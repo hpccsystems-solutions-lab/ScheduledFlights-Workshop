@@ -61,7 +61,7 @@ OUTPUT(CHOOSEN(appendedData, 300), NAMED('appendedData'));
  *  STD.Date.MonthsBetween(Date_t d1, Date_t d2)
  *  STD.Date.YearsBetween(Date_t d1, Date_t d2)
  *  STD.Date.Today();
- *  STD.Date.CurrentDate(Local_Time);
- *  STD.Date.CurrentTime(Local_Time);
+ *  STD.Date.CurrentDate(bool is_local);
+ *  STD.Date.CurrentTime(bool is_local);
  
  ******************************************************************************/
