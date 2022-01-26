@@ -13,7 +13,7 @@ OUTPUT(CHOOSEN(sortedData, 100), NAMED('sortedData'));
 
 
 // TODO
-/* Display Flights that thier DepartStationCode are in LHR or ORD 
+/* Display Flights that their DepartStationCode are in LHR or ORD 
    and ArriveStationCode is in JFK, ATL, or ORD.
    Sort the result Carrier and FlightNumber 
 */
